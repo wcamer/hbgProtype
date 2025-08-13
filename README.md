@@ -1,3 +1,4 @@
+
 # Hogwarts Battle (Blazor Server)
 
 A multiplayer Hogwarts Battle-inspired deckbuilding game implemented as a .NET 8 Blazor Server web app. Includes extensions for Creatures, Potions, and Charms, a 2–6 player online lobby, SignalR real-time sync, and a character creation mode with trait trees inspired by Harry, Ron, Hermione, Neville, Ginny, and Luna.
@@ -65,3 +66,4 @@ This implementation provides a playable skeleton with the requested extensions a
 - In-memory rooms and state: restarting the server clears rooms.
 - HTTPS is enabled by default in dev; the README run command uses HTTP for simplicity.
 - To deploy, host the server publicly and expose the configured URL/port. SignalR uses WebSockets with fallback. 
+
