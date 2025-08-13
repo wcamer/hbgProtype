@@ -1,0 +1,12 @@
+/workspace/HogwartsBattle.Core/bin/Debug/net8.0/HogwartsBattle.Core.deps.json
+/workspace/HogwartsBattle.Core/bin/Debug/net8.0/HogwartsBattle.Core.dll
+/workspace/HogwartsBattle.Core/bin/Debug/net8.0/HogwartsBattle.Core.pdb
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.AssemblyInfoInputs.cache
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.AssemblyInfo.cs
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.csproj.CoreCompileInputs.cache
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.sourcelink.json
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.dll
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/refint/HogwartsBattle.Core.dll
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.pdb
+/workspace/HogwartsBattle.Core/obj/Debug/net8.0/ref/HogwartsBattle.Core.dll

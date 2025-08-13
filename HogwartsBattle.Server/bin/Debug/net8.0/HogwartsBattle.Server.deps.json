@@ -1,0 +1,304 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HogwartsBattle.Server/1.0.0": {
+        "dependencies": {
+          "HogwartsBattle.Core": "1.0.0",
+          "Microsoft.AspNetCore.SignalR.Client": "8.0.19"
+        },
+        "runtime": {
+          "HogwartsBattle.Server.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Connections.Abstractions/8.0.19": {
+        "dependencies": {
+          "Microsoft.Extensions.Features": "8.0.19",
+          "System.IO.Pipelines": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Client/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Common": "8.0.19",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Client.dll": {
+            "assemblyVersion": "8.0.19.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Connections.Common/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "8.0.19"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Connections.Client": "8.0.19",
+          "Microsoft.AspNetCore.SignalR.Client.Core": "8.0.19"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.SignalR.Client.dll": {
+            "assemblyVersion": "8.0.19.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Client.Core/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "8.0.19",
+          "Microsoft.AspNetCore.SignalR.Protocols.Json": "8.0.19",
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.1",
+          "System.Threading.Channels": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.SignalR.Client.Core.dll": {
+            "assemblyVersion": "8.0.19.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Common/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Connections.Abstractions": "8.0.19",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.SignalR.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.SignalR.Protocols.Json/8.0.19": {
+        "dependencies": {
+          "Microsoft.AspNetCore.SignalR.Common": "8.0.19"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Features/8.0.19": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Features.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1925.37204"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.3",
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.3": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1325.6609"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/8.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.224.6711"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/8.0.0": {},
+      "System.IO.Pipelines/8.0.0": {},
+      "System.Threading.Channels/8.0.0": {},
+      "HogwartsBattle.Core/1.0.0": {
+        "runtime": {
+          "HogwartsBattle.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HogwartsBattle.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Connections.Abstractions/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/FPrvadMXaIuf3DIDzsscck7hRPg/XKtdfpZGcEtA4f5mlVBoi2G0m4NRrcd7HwB9/cOMLSf9/Csd2UZKCAyaQ==",
+      "path": "microsoft.aspnetcore.connections.abstractions/8.0.19",
+      "hashPath": "microsoft.aspnetcore.connections.abstractions.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Connections.Client/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tc6pChdr4IB0iQ4/9x3ajDvo5RiBpidWegKlVIVMqJaPoKDkO88K92TY7l5fgLftloYmQA6KzAFD/ucAw4NZNg==",
+      "path": "microsoft.aspnetcore.http.connections.client/8.0.19",
+      "hashPath": "microsoft.aspnetcore.http.connections.client.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Connections.Common/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jRlb9VElKtx0U25KYBuzxEZYEvfvsEBTp9EKh8qjGu4qr/LLSozuE465Fy5jSq2t8Yb6a3fdWCF3ta/PoGBLA==",
+      "path": "microsoft.aspnetcore.http.connections.common/8.0.19",
+      "hashPath": "microsoft.aspnetcore.http.connections.common.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Client/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WbYw16PwhD4VOX4EtPJjS9WWD+e9kAygXT6tHfYpYvveINAabFiG42M24lduk6ju8XeFu6oZ+CXNLLTTeDW09g==",
+      "path": "microsoft.aspnetcore.signalr.client/8.0.19",
+      "hashPath": "microsoft.aspnetcore.signalr.client.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Client.Core/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EUe4hiYMO/VK4uucXAIRiXdIEZFaFUG1gIsdfPfd6CXUxJxbSZFMIRE/1rIDs8U5RC4r8jfu2YSpV8n5EF2w0Q==",
+      "path": "microsoft.aspnetcore.signalr.client.core/8.0.19",
+      "hashPath": "microsoft.aspnetcore.signalr.client.core.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Common/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V+5X+f3P9fiNla6734j2A9anRLURKjB/Nwa26AT/U6BeStT2SOISH6SqYGumq6SJ6mnfaekcaHWNIjEtfIYXgg==",
+      "path": "microsoft.aspnetcore.signalr.common/8.0.19",
+      "hashPath": "microsoft.aspnetcore.signalr.common.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.SignalR.Protocols.Json/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qJq6qcgBT/1nrtkQm07u4nogGRpNqmMmVhUrQswrYgZ16rougzZiXMYD4idGBuAOe7mQ1s6OGH7ykdOZHVKjtg==",
+      "path": "microsoft.aspnetcore.signalr.protocols.json/8.0.19",
+      "hashPath": "microsoft.aspnetcore.signalr.protocols.json.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BmANAnR5Xd4Oqw7yQ75xOAYODybZQRzdeNucg7kS5wWKd2PNnMdYtJ2Vciy0QLylRmv42DGl5+AFL9izA6F1Rw==",
+      "path": "microsoft.extensions.dependencyinjection/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Features/8.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPXob4CgMBZwjBzmn+/fLHzFNrCQr1Z4O3+HDbGB4jatJWD9P8vSSwcDnKHdMW3Rgb9d0EDDxzxBbp70AzHKyA==",
+      "path": "microsoft.extensions.features/8.0.19",
+      "hashPath": "microsoft.extensions.features.8.0.19.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4x+pzsQEbqxhNf1QYRr5TDkLP9UsLT3A6MdRKDDEgrW7h1ljiEPgTNhKYUhNCCAaVpQECVQ+onA91PTPnIp6Lw==",
+      "path": "microsoft.extensions.logging/8.0.1",
+      "hashPath": "microsoft.extensions.logging.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dL0QGToTxggRLMYY4ZYX5AMwBb+byQBd/5dMiZE07Nv73o6I5Are3C7eQTh7K2+A4ct0PVISSr7TZANbiNb2yQ==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.3",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
+      "path": "microsoft.extensions.options/8.0.2",
+      "hashPath": "microsoft.extensions.options.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "path": "system.io.pipelines/8.0.0",
+      "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CMaFr7v+57RW7uZfZkPExsPB6ljwzhjACWW1gfU35Y56rk72B/Wu+sTqxVmGSk4SFUlPc3cjeKND0zktziyjBA==",
+      "path": "system.threading.channels/8.0.0",
+      "hashPath": "system.threading.channels.8.0.0.nupkg.sha512"
+    },
+    "HogwartsBattle.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

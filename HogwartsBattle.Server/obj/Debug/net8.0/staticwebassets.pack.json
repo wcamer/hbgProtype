@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/projectbundle/HogwartsBattle.Server.bundle.scp.css",
+      "PackagePath": "staticwebassets/HogwartsBattle.Server.bundle.scp.css"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/ally.svg",
+      "PackagePath": "staticwebassets/images/ally.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/animals/animal1.svg",
+      "PackagePath": "staticwebassets/images/animals/animal1.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/buildings/building1.svg",
+      "PackagePath": "staticwebassets/images/buildings/building1.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/buildings/building2.svg",
+      "PackagePath": "staticwebassets/images/buildings/building2.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/charm.svg",
+      "PackagePath": "staticwebassets/images/charm.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/creature.svg",
+      "PackagePath": "staticwebassets/images/creature.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/food/food1.svg",
+      "PackagePath": "staticwebassets/images/food/food1.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/item.svg",
+      "PackagePath": "staticwebassets/images/item.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/lightning.svg",
+      "PackagePath": "staticwebassets/images/lightning.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/money/money.svg",
+      "PackagePath": "staticwebassets/images/money/money.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/other/placeholder.svg",
+      "PackagePath": "staticwebassets/images/other/placeholder.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/potion.svg",
+      "PackagePath": "staticwebassets/images/potion.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/shapes/square.svg",
+      "PackagePath": "staticwebassets/images/shapes/square.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/shapes/triangle.svg",
+      "PackagePath": "staticwebassets/images/shapes/triangle.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/skull.svg",
+      "PackagePath": "staticwebassets/images/skull.svg"
+    },
+    {
+      "Id": "/workspace/HogwartsBattle.Server/wwwroot/images/spell.svg",
+      "PackagePath": "staticwebassets/images/spell.svg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.HogwartsBattle.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.HogwartsBattle.Server.props",
+      "PackagePath": "build\\HogwartsBattle.Server.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.HogwartsBattle.Server.props",
+      "PackagePath": "buildMultiTargeting\\HogwartsBattle.Server.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.HogwartsBattle.Server.props",
+      "PackagePath": "buildTransitive\\HogwartsBattle.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

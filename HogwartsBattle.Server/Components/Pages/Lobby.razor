@@ -1,0 +1,54 @@
+@page "/"
+@page "/lobby"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Nav
+
+<h1>Hogwarts Battle Lobby</h1>
+
+<div class="row g-2">
+    <div class="col-md-6">
+        <div class="card p-3">
+            <h4>Create Room</h4>
+            <input class="form-control mb-2" placeholder="Your name" @bind=playerName />
+            <button class="btn btn-primary" @onclick=CreateRoom disabled="@(string.IsNullOrWhiteSpace(playerName))">Create</button>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card p-3">
+            <h4>Join Room</h4>
+            <input class="form-control mb-2" placeholder="Room code" @bind=roomCode />
+            <input class="form-control mb-2" placeholder="Your name" @bind=playerName />
+            <button class="btn btn-success" @onclick=JoinRoom disabled="@(string.IsNullOrWhiteSpace(playerName) || string.IsNullOrWhiteSpace(roomCode))">Join</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string? playerName;
+    private string? roomCode;
+
+    private HubConnection? _hub;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _hub = new HubConnectionBuilder()
+            .WithUrl(Nav.ToAbsoluteUri("/hubs/game"))
+            .WithAutomaticReconnect()
+            .Build();
+        await _hub.StartAsync();
+    }
+
+    private async Task CreateRoom()
+    {
+        if (_hub is null || string.IsNullOrWhiteSpace(playerName)) return;
+        var code = await _hub.InvokeAsync<string>("CreateRoom", playerName);
+        Nav.NavigateTo($"/room/{code}");
+    }
+
+    private async Task JoinRoom()
+    {
+        if (_hub is null || string.IsNullOrWhiteSpace(playerName) || string.IsNullOrWhiteSpace(roomCode)) return;
+        await _hub.InvokeAsync("JoinRoom", roomCode, playerName);
+        Nav.NavigateTo($"/room/{roomCode}");
+    }
+}

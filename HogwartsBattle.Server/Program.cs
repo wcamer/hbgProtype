@@ -1,10 +1,17 @@
 using HogwartsBattle.Server.Components;
+using HogwartsBattle.Server.Hubs;
+using HogwartsBattle.Server.Services;
+using HogwartsBattle.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddSignalR();
+builder.Services.AddSingleton<GameEngine>();
+builder.Services.AddSingleton<IImageAssetService, ImageAssetService>();
 
 var app = builder.Build();
 
@@ -23,5 +30,7 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+
+app.MapHub<GameHub>("/hubs/game");
 
 app.Run();
