@@ -44,7 +44,13 @@ else
             {
                 <div class="card p-2 mb-2">
                     <img src="@Image.UrlFor(v.ImageKey.Length==0?"villain":v.ImageKey)" style="height:60px" />
-                    <div>@v.Name (@v.MaxHealth)</div>
+                    <div>@v.Name (@v.CurrentHealth/@v.MaxHealth)</div>
+                    @if (State.Players[State.ActivePlayerIndex].Attack > 0)
+                    {
+                        <div class="mt-1 d-flex gap-1">
+                            <button class="btn btn-sm btn-danger" @onclick="() => AttackVillain(v.Id, 1)">Spend 1 Attack</button>
+                        </div>
+                    }
                 </div>
             }
         </div>
@@ -131,4 +137,5 @@ else
     private Task PlayCard(int id) => _hub!.InvokeAsync("PlayCard", id);
     private Task BuyCard(int id) => _hub!.InvokeAsync("BuyCard", id);
     private Task EndTurn() => _hub!.InvokeAsync("EndTurn");
+    private Task AttackVillain(int villainId, int amount) => _hub!.InvokeAsync("AttackVillain", villainId, amount);
 }
