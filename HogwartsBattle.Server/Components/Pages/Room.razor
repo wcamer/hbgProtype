@@ -1,0 +1,134 @@
+@page "/room/{RoomCode}"
+@using Microsoft.AspNetCore.SignalR.Client
+@using HogwartsBattle.Core.Game
+@inject NavigationManager Nav
+@inject HogwartsBattle.Server.Services.IImageAssetService Image
+
+<h1>Room @RoomCode</h1>
+
+@if (State is null)
+{
+    <p>Connecting...</p>
+}
+else
+{
+    <div class="mb-2">
+        <strong>Phase:</strong> @State.Phase
+        @if (State.Phase == GamePhase.Lobby)
+        {
+            <button class="btn btn-primary btn-sm ms-2" @onclick=StartGame>Start Game</button>
+        }
+    </div>
+
+    @if (State.Phase == GamePhase.CharacterCreation)
+    {
+        <a class="btn btn-warning" href="/character/@RoomCode">Configure Character</a>
+    }
+
+    <div class="row g-2">
+        <div class="col-md-4">
+            <h4>Location</h4>
+            @if (State.ActiveLocation is not null)
+            {
+                <div class="card p-2">
+                    <img src="@Image.UrlFor(State.ActiveLocation.ImageKey.Length==0?"location":State.ActiveLocation.ImageKey)" style="height:80px" />
+                    <div>@State.ActiveLocation.Name</div>
+                    <div>
+                        Control: @State.LocationControl / @State.ActiveLocation.ControlTrackLength
+                        <img src="@Image.UrlFor("control")" style="height:20px" />
+                    </div>
+                </div>
+            }
+            <h4 class="mt-3">Villains</h4>
+            @foreach (var v in State.ActiveVillains)
+            {
+                <div class="card p-2 mb-2">
+                    <img src="@Image.UrlFor(v.ImageKey.Length==0?"villain":v.ImageKey)" style="height:60px" />
+                    <div>@v.Name (@v.MaxHealth)</div>
+                </div>
+            }
+        </div>
+        <div class="col-md-8">
+            <h4>Market</h4>
+            <div class="d-flex flex-wrap gap-2">
+                @foreach (var c in State.Supply)
+                {
+                    <div class="card p-2" style="width:160px">
+                        <img src="@Image.UrlFor(c.ImageKey)" style="height:60px" />
+                        <div class="fw-bold">@c.Name</div>
+                        <div class="small">@c.Text</div>
+                        <div class="mt-1">Cost: @c.Cost <img src="@Image.UrlFor("influence")" style="height:18px" /></div>
+                        <button class="btn btn-sm btn-success mt-1" @onclick="() => BuyCard(c.Id)">Buy</button>
+                    </div>
+                }
+            </div>
+
+            <h4 class="mt-3">Players</h4>
+            @for (int i = 0; i < State.Players.Count; i++)
+            {
+                var p = State.Players[i];
+                <div class="card p-2 mb-2">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="@Image.UrlFor("character")" style="height:32px;width:32px" />
+                            <div><strong>@p.Name</strong> HP @p.Health/@p.MaxHealth | Inf @p.Influence <img src="@Image.UrlFor("influence")" style="height:16px" /> | Atk @p.Attack <img src="@Image.UrlFor("attack")" style="height:16px" /></div>
+                        </div>
+                        @if (i == State.ActivePlayerIndex)
+                        {
+                            <span class="badge text-bg-primary">Active</span>
+                        }
+                    </div>
+
+                    @if (i == State.ActivePlayerIndex)
+                    {
+                        <div class="mt-2">
+                            <strong>Hand</strong>
+                            <div class="d-flex flex-wrap gap-2">
+                                @foreach (var id in p.Hand)
+                                {
+                                    var card = State.CardIndex[id];
+                                    <div class="card p-2" style="width:140px">
+                                        <img src="@Image.UrlFor(card.ImageKey)" style="height:48px" />
+                                        <div class="fw-bold">@card.Name</div>
+                                        <div class="small">@card.Text</div>
+                                        <button class="btn btn-sm btn-primary mt-1" @onclick="() => PlayCard(id)">Play</button>
+                                    </div>
+                                }
+                            </div>
+                            <button class="btn btn-secondary mt-2" @onclick=EndTurn>End Turn</button>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public string RoomCode { get; set; } = string.Empty;
+
+    private HubConnection? _hub;
+    private GameState? State;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _hub = new HubConnectionBuilder()
+            .WithUrl(Nav.ToAbsoluteUri("/hubs/game"))
+            .WithAutomaticReconnect()
+            .Build();
+
+        _hub.On<GameState>("GameUpdated", s =>
+        {
+            State = s;
+            InvokeAsync(StateHasChanged);
+        });
+
+        await _hub.StartAsync();
+        await _hub.InvokeAsync("Attach", RoomCode);
+    }
+
+    private Task StartGame() => _hub!.InvokeAsync("StartGame");
+    private Task PlayCard(int id) => _hub!.InvokeAsync("PlayCard", id);
+    private Task BuyCard(int id) => _hub!.InvokeAsync("BuyCard", id);
+    private Task EndTurn() => _hub!.InvokeAsync("EndTurn");
+}

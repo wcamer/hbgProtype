@@ -1,0 +1,81 @@
+@page "/character/{RoomCode}"
+@using HogwartsBattle.Core.Characters
+@using HogwartsBattle.Core.Game
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Nav
+
+<h2>Character Creation</h2>
+
+<div class="card p-3 mb-3">
+    <label class="form-label">Base Hero</label>
+    <select class="form-select" @bind=baseHero>
+        @foreach (var hero in Enum.GetValues<HeroArchetype>())
+        {
+            <option value="@hero">@hero</option>
+        }
+    </select>
+</div>
+
+@if (traits is not null)
+{
+    <div class="card p-3 mb-3">
+        <label class="form-label">Display Name</label>
+        <input class="form-control" @bind=displayName />
+    </div>
+    <div class="row g-2">
+        @foreach (var trait in traits)
+        {
+            <div class="col-md-4">
+                <div class="card p-2">
+                    <div class="fw-bold">@trait.Name</div>
+                    <div class="small">@trait.Description</div>
+                    <div class="mt-1">Tier @trait.Tier</div>
+                    <div class="form-check mt-1">
+                        <input class="form-check-input" type="checkbox" checked="@selectedIds.Contains(trait.Id)" @onchange="(e)=>Toggle(trait.Id, (bool)e.Value!)" />
+                        <label class="form-check-label">Select</label>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <button class="btn btn-primary mt-3" @onclick=Confirm disabled="@(string.IsNullOrWhiteSpace(displayName) || selectedIds.Count==0)">Confirm</button>
+}
+
+@code {
+    [Parameter] public string RoomCode { get; set; } = string.Empty;
+
+    private HeroArchetype baseHero = HeroArchetype.Harry;
+    private string displayName = string.Empty;
+    private List<CharacterTrait>? traits;
+    private HashSet<string> selectedIds = new();
+
+    private HubConnection? _hub;
+
+    protected override async Task OnInitializedAsync()
+    {
+        traits = CharacterTrees.Trees[baseHero];
+        _hub = new HubConnectionBuilder()
+            .WithUrl(Nav.ToAbsoluteUri("/hubs/game"))
+            .WithAutomaticReconnect()
+            .Build();
+        await _hub.StartAsync();
+    }
+
+    protected override void OnParametersSet()
+    {
+        traits = CharacterTrees.Trees[baseHero];
+        selectedIds.Clear();
+    }
+
+    private void Toggle(string id, bool value)
+    {
+        if (value) selectedIds.Add(id); else selectedIds.Remove(id);
+    }
+
+    private async Task Confirm()
+    {
+        var build = new CharacterBuild { BaseHero = baseHero, DisplayName = displayName, SelectedTraitIds = selectedIds.ToList() };
+        await _hub!.InvokeAsync("ConfirmCharacter", build);
+        Nav.NavigateTo($"/room/{RoomCode}");
+    }
+}
