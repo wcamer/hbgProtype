@@ -23,7 +23,7 @@ public sealed class GameEngine
 
         // Seed villains and location
         state.ActiveLocation = cardIndex.Values.OfType<LocationCard>().FirstOrDefault();
-        state.ActiveVillains = cardIndex.Values.OfType<VillainCard>().Take(2).ToList();
+        state.ActiveVillains = cardIndex.Values.OfType<VillainCard>().Take(2).Select(v => { v.CurrentHealth = v.MaxHealth; return v; }).ToList();
 
         return state;
     }
@@ -73,9 +73,11 @@ public sealed class GameEngine
         var p = state.Players.First(x => x.PlayerId == playerId);
         var card = state.CardIndex[cardId];
         if (p.Influence < card.Cost) return;
-        if (!state.Supply.Any(c => c.Id == cardId)) return;
+        var supplyCard = state.Supply.FirstOrDefault(c => c.Id == cardId);
+        if (supplyCard is null) return;
         p.Influence -= card.Cost;
         p.Discard.Add(cardId);
+        state.Supply.Remove(supplyCard);
         state.Log.Add($"{p.Name} bought {card.Name}.");
     }
 
@@ -95,6 +97,21 @@ public sealed class GameEngine
 
         // Next player
         state.ActivePlayerIndex = (state.ActivePlayerIndex + 1) % state.Players.Count;
+    }
+
+    public void AttackVillain(GameState state, string playerId, int villainId, int amount)
+    {
+        var player = state.Players.First(x => x.PlayerId == playerId);
+        if (amount <= 0 || player.Attack < amount) return;
+        var villain = state.ActiveVillains.FirstOrDefault(v => v.Id == villainId);
+        if (villain is null || villain.CurrentHealth <= 0) return;
+        player.Attack -= amount;
+        villain.CurrentHealth = Math.Max(0, villain.CurrentHealth - amount);
+        state.Log.Add($"{player.Name} dealt {amount} to {villain.Name}.");
+        if (villain.CurrentHealth == 0)
+        {
+            state.Log.Add($"{villain.Name} is defeated!");
+        }
     }
 
     private static void ApplyEffect(GameState state, PlayerState player, CardEffect effect)

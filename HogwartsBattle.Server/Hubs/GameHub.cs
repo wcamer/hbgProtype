@@ -102,6 +102,14 @@ public sealed class GameHub : Hub
         await Clients.Group(code).SendAsync("GameUpdated", state);
     }
 
+    public async Task AttackVillain(int villainId, int amount)
+    {
+        var code = RequireRoom();
+        var state = Rooms[code];
+        _engine.AttackVillain(state, Context.ConnectionId, villainId, amount);
+        await Clients.Group(code).SendAsync("GameUpdated", state);
+    }
+
     private string RequireRoom()
     {
         if (!ConnectionToRoom.TryGetValue(Context.ConnectionId, out var code))
