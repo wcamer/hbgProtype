@@ -18,4 +18,7 @@ public sealed class PlayerState
     public List<int> InPlay { get; set; } = new();
 
     public CharacterBuild Character { get; set; } = new();
+
+    public HashSet<string> TurnFlags { get; set; } = new();
+    public Dictionary<string, int> TurnCounters { get; set; } = new();
 }

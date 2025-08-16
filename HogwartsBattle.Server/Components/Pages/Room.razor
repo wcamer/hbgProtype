@@ -45,7 +45,7 @@ else
                 <div class="card p-2 mb-2">
                     <img src="@Image.UrlFor(v.ImageKey.Length==0?"villain":v.ImageKey)" style="height:60px" />
                     <div>@v.Name (@v.CurrentHealth/@v.MaxHealth)</div>
-                    @if (State.Players[State.ActivePlayerIndex].Attack > 0)
+                    @if (State.Players[State.ActivePlayerIndex].Attack > 0 && State.Phase == GamePhase.InProgress)
                     {
                         <div class="mt-1 d-flex gap-1">
                             <button class="btn btn-sm btn-danger" @onclick="() => AttackVillain(v.Id, 1)">Spend 1 Attack</button>
@@ -53,6 +53,14 @@ else
                     }
                 </div>
             }
+
+            <h4 class="mt-3">Log</h4>
+            <div class="card p-2" style="max-height:240px; overflow:auto">
+                @foreach (var line in State.Log.TakeLast(15))
+                {
+                    <div class="small">@line</div>
+                }
+            </div>
         </div>
         <div class="col-md-8">
             <h4>Market</h4>
@@ -83,9 +91,13 @@ else
                         {
                             <span class="badge text-bg-primary">Active</span>
                         }
+                        @if (State.Phase == GamePhase.Completed)
+                        {
+                            <span class="badge text-bg-danger ms-2">Game Over</span>
+                        }
                     </div>
 
-                    @if (i == State.ActivePlayerIndex)
+                    @if (i == State.ActivePlayerIndex && State.Phase == GamePhase.InProgress)
                     {
                         <div class="mt-2">
                             <strong>Hand</strong>
