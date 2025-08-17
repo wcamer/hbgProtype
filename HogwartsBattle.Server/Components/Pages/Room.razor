@@ -109,11 +109,27 @@ else
                                         <img src="@Image.UrlFor(card.ImageKey)" style="height:48px" />
                                         <div class="fw-bold">@card.Name</div>
                                         <div class="small">@card.Text</div>
-                                        <button class="btn btn-sm btn-primary mt-1" @onclick="() => PlayCard(id)">Play</button>
+                                        <div class="d-flex gap-1 mt-1">
+                                            <button class="btn btn-sm btn-primary" @onclick="() => PlayCard(id)">Play</button>
+                                            <button class="btn btn-sm btn-outline-secondary" title="Swift: discard and draw" @onclick="() => UseSwiftDiscard(id)">Swift</button>
+                                        </div>
                                     </div>
                                 }
                             </div>
-                            <button class="btn btn-secondary mt-2" @onclick=EndTurn>End Turn</button>
+                            <div class="mt-2 d-flex align-items-center gap-2">
+                                <button class="btn btn-secondary" @onclick=EndTurn>End Turn</button>
+                                <div class="dropdown">
+                                    <button class="btn btn-outline-info dropdown-toggle" type="button" data-bs-toggle="dropdown">Mentor: Give Draw</button>
+                                    <ul class="dropdown-menu">
+                                        @for (int j = 0; j < State.Players.Count; j++)
+                                        {
+                                            if (j == State.ActivePlayerIndex) { continue; }
+                                            var other = State.Players[j];
+                                            <li><a class="dropdown-item" href="#" @onclick="() => UseMentor(other.PlayerId)">@other.Name</a></li>
+                                        }
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     }
                 </div>
@@ -150,4 +166,6 @@ else
     private Task BuyCard(int id) => _hub!.InvokeAsync("BuyCard", id);
     private Task EndTurn() => _hub!.InvokeAsync("EndTurn");
     private Task AttackVillain(int villainId, int amount) => _hub!.InvokeAsync("AttackVillain", villainId, amount);
+    private Task UseMentor(string targetPlayerId) => _hub!.InvokeAsync("UseMentor", targetPlayerId);
+    private Task UseSwiftDiscard(int cardId) => _hub!.InvokeAsync("UseSwiftDiscard", cardId);
 }

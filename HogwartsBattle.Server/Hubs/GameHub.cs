@@ -110,6 +110,22 @@ public sealed class GameHub : Hub
         await Clients.Group(code).SendAsync("GameUpdated", state);
     }
 
+    public async Task UseMentor(string targetPlayerId)
+    {
+        var code = RequireRoom();
+        var state = Rooms[code];
+        _engine.UseMentor(state, Context.ConnectionId, targetPlayerId);
+        await Clients.Group(code).SendAsync("GameUpdated", state);
+    }
+
+    public async Task UseSwiftDiscard(int cardId)
+    {
+        var code = RequireRoom();
+        var state = Rooms[code];
+        _engine.UseSwiftDiscard(state, Context.ConnectionId, cardId);
+        await Clients.Group(code).SendAsync("GameUpdated", state);
+    }
+
     private string RequireRoom()
     {
         if (!ConnectionToRoom.TryGetValue(Context.ConnectionId, out var code))

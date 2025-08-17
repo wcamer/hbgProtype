@@ -82,13 +82,37 @@ public sealed class GameEngine
     {
         var p = state.Players.First(x => x.PlayerId == playerId);
         var card = state.CardIndex[cardId];
-        if (p.Influence < card.Cost) return;
+        var effectiveCost = card.Cost;
+        // Collector: Items cost 1 less once per turn
+        if (card.Type == CardType.Item && HasTrait(p, "Collector") && !p.TurnFlags.Contains("Collector_Used"))
+        {
+            effectiveCost = Math.Max(0, effectiveCost - 1);
+        }
+        if (p.Influence < effectiveCost) return;
         var supplyCard = state.Supply.FirstOrDefault(c => c.Id == cardId);
         if (supplyCard is null) return;
-        p.Influence -= card.Cost;
+        p.Influence -= effectiveCost;
         p.Discard.Add(cardId);
         state.Supply.Remove(supplyCard);
         state.Log.Add($"{p.Name} bought {card.Name}.");
+        if (card.Type == CardType.Item && HasTrait(p, "Collector") && !p.TurnFlags.Contains("Collector_Used"))
+        {
+            p.TurnFlags.Add("Collector_Used");
+            state.Log.Add($"Collector reduced the cost by 1.");
+        }
+        // Tactician: +1 attack if you bought a card this turn (once per turn)
+        if (HasTrait(p, "Tactician") && !p.TurnFlags.Contains("Tactician_Used"))
+        {
+            p.Attack += 1;
+            p.TurnFlags.Add("Tactician_Used");
+            state.Log.Add($"{p.Name}'s Tactician grants +1 attack.");
+        }
+        // Bold: +1 attack when you buy a card costing 4 or more
+        if (HasTrait(p, "Bold") && card.Cost >= 4)
+        {
+            p.Attack += 1;
+            state.Log.Add($"{p.Name}'s Bold grants +1 attack for a 4+ cost purchase.");
+        }
         // Restock market with a random marketable card
         var marketPool = state.CardIndex.Values.Where(c => c.Type is CardType.Spell or CardType.Item or CardType.Ally or CardType.Potion or CardType.Charm or CardType.Creature).ToList();
         if (marketPool.Count > 0)
@@ -102,6 +126,12 @@ public sealed class GameEngine
     public void EndTurn(GameState state)
     {
         var p = state.Players[state.ActivePlayerIndex];
+        // Hopeful: At end of your turn, if you have 0 attack, gain 1 influence
+        if (HasTrait(p, "Hopeful") && p.Attack == 0)
+        {
+            p.Influence += 1;
+            state.Log.Add($"{p.Name}'s Hopeful grants +1 influence.");
+        }
         // Discard hand and in play
         p.Discard.AddRange(p.Hand);
         p.Discard.AddRange(p.InPlay);
@@ -134,6 +164,15 @@ public sealed class GameEngine
         if (villain.CurrentHealth == 0)
         {
             state.Log.Add($"{villain.Name} is defeated!");
+            // Inspiring: When you defeat a Villain, all heroes gain 1 influence (if the defeating hero has Inspiring)
+            if (HasTrait(player, "Inspiring"))
+            {
+                foreach (var hero in state.Players)
+                {
+                    hero.Influence += 1;
+                }
+                state.Log.Add($"{player.Name}'s Inspiring grants all heroes +1 influence.");
+            }
             CheckVictoryDefeat(state);
         }
     }
@@ -207,6 +246,16 @@ public sealed class GameEngine
         foreach (var hero in state.Players)
         {
             hero.Health = Math.Max(0, hero.Health - 1);
+            // Stubborn: If you take damage from a Dark Arts card, +1 attack
+            if (HasTrait(hero, "Stubborn"))
+            {
+                hero.Attack += 1;
+            }
+            // Protector: Heal 1 when a Dark Arts card is resolved
+            if (HasTrait(hero, "Protector"))
+            {
+                hero.Health = Math.Min(hero.MaxHealth, hero.Health + 1);
+            }
         }
         if (state.ActiveLocation != null)
         {
@@ -261,6 +310,46 @@ public sealed class GameEngine
                 }
             }
         }
+        // Herbology: Healing effects you play heal +1
+        if (HasTrait(player, "Herbology") && card.Effect.Resources.Any(r => r.Type == ResourceType.Heal && r.Amount > 0))
+        {
+            player.Health = Math.Min(player.MaxHealth, player.Health + 1);
+            state.Log.Add($"{player.Name}'s Herbology heals +1.");
+        }
+        // Leader: Allies you play give another hero +1 health
+        if (card.Type == CardType.Ally && HasTrait(player, "Leader"))
+        {
+            var other = state.Players.FirstOrDefault(h => !ReferenceEquals(h, player));
+            if (other is not null)
+            {
+                other.Health = Math.Min(other.MaxHealth, other.Health + 1);
+                state.Log.Add($"{player.Name}'s Leader heals {other.Name} for 1.");
+            }
+        }
+    }
+
+    // Mentor: Once per turn another hero draws 1
+    public void UseMentor(GameState state, string playerId, string targetPlayerId)
+    {
+        var player = state.Players.First(x => x.PlayerId == playerId);
+        if (!HasTrait(player, "Mentor") || player.TurnFlags.Contains("Mentor_Used")) return;
+        var target = state.Players.FirstOrDefault(x => x.PlayerId == targetPlayerId);
+        if (target is null || ReferenceEquals(target, player)) return;
+        DrawCards(state, target, 1);
+        player.TurnFlags.Add("Mentor_Used");
+        state.Log.Add($"{player.Name} mentors {target.Name}: they draw 1.");
+    }
+
+    // Swift: Once per turn you may discard a card to draw 1
+    public void UseSwiftDiscard(GameState state, string playerId, int cardId)
+    {
+        var player = state.Players.First(x => x.PlayerId == playerId);
+        if (!HasTrait(player, "Swift") || player.TurnFlags.Contains("Swift_Used")) return;
+        if (!player.Hand.Remove(cardId)) return;
+        player.Discard.Add(cardId);
+        DrawCards(state, player, 1);
+        player.TurnFlags.Add("Swift_Used");
+        state.Log.Add($"{player.Name} used Swift: discarded and drew 1.");
     }
 
     private static bool HasTrait(PlayerState player, string traitName)
