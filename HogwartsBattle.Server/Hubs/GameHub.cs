@@ -23,14 +23,27 @@ public sealed class GameHub : Hub
         return base.OnDisconnectedAsync(exception);
     }
 
-    public async Task<string> CreateRoom(string playerName)
+    public async Task<string> CreateRoom(string playerName, bool solo = false)
     {
         var code = GenerateRoomCode();
         var state = _engine.CreateNewGame(code);
+        state.IsSoloMode = solo;
         Rooms[code] = state;
         await Groups.AddToGroupAsync(Context.ConnectionId, code);
         ConnectionToRoom[Context.ConnectionId] = code;
-        _engine.AddPlayer(state, Context.ConnectionId, playerName);
+        if (solo)
+        {
+            state.SoloControllerId = Context.ConnectionId;
+            // Add four heroes controlled by the same player id but different names
+            _engine.AddPlayer(state, Context.ConnectionId + "#1", playerName + " (1)");
+            _engine.AddPlayer(state, Context.ConnectionId + "#2", playerName + " (2)");
+            _engine.AddPlayer(state, Context.ConnectionId + "#3", playerName + " (3)");
+            _engine.AddPlayer(state, Context.ConnectionId + "#4", playerName + " (4)");
+        }
+        else
+        {
+            _engine.AddPlayer(state, Context.ConnectionId, playerName);
+        }
         await Clients.Group(code).SendAsync("GameUpdated", state);
         return code;
     }
@@ -40,6 +53,10 @@ public sealed class GameHub : Hub
         if (!Rooms.TryGetValue(code, out var state))
         {
             throw new HubException("Room not found");
+        }
+        if (state.IsSoloMode)
+        {
+            throw new HubException("Solo room: joining is disabled.");
         }
         if (state.Players.Count >= 6)
         {

@@ -58,7 +58,7 @@ public sealed class GameEngine
 
     public void ConfirmCharacter(GameState state, string playerId, HogwartsBattle.Core.Characters.CharacterBuild build)
     {
-        var p = state.Players.First(x => x.PlayerId == playerId);
+        var p = state.Players.First(x => x.PlayerId == playerId || (state.IsSoloMode && x.PlayerId.StartsWith(playerId)));
         p.Character = build;
         if (state.Players.All(x => x.Character.SelectedTraitIds.Count > 0))
         {
@@ -145,7 +145,7 @@ public sealed class GameEngine
         // Draw 5 new cards for the player ending their turn
         DrawCards(state, p, 5);
 
-        // Next player
+        // Next player (solo mode keeps cycling across the 4 heroes controlled by the same user)
         state.ActivePlayerIndex = (state.ActivePlayerIndex + 1) % state.Players.Count;
 
         // Start of next player's turn
