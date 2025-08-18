@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IXg+8ijYttdVG+/VnbBFJ4I6IZrAru2qCubc+RLjkMc=",
+  "Hash": "GvRh8XkTc1XHWmxNJ+ELzmw1CzjICuvOPvQGfVeOwhY=",
   "Source": "HogwartsBattle.Server",
   "BasePath": "_content/HogwartsBattle.Server",
   "Mode": "Default",
@@ -8,21 +8,21 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "HogwartsBattle.Server/wwwroot",
+      "Name": "HogwartsBattle.Server\\wwwroot",
       "Source": "HogwartsBattle.Server",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/bundle/HogwartsBattle.Server.styles.css",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HogwartsBattle.Server.styles.css",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Computed",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "HogwartsBattle.Server.styles.css",
+      "RelativePath": "HogwartsBattle.Server#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,17 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "3p7lnev9tm",
+      "Integrity": "N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/bundle/HogwartsBattle.Server.styles.css"
+      "OriginalItemSpec": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HogwartsBattle.Server.styles.css"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/projectbundle/HogwartsBattle.Server.bundle.scp.css",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HogwartsBattle.Server.bundle.scp.css",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Computed",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "HogwartsBattle.Server.bundle.scp.css",
+      "RelativePath": "HogwartsBattle.Server#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -50,389 +52,2237 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "3p7lnev9tm",
+      "Integrity": "N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspace/HogwartsBattle.Server/obj/Debug/net8.0/scopedcss/projectbundle/HogwartsBattle.Server.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HogwartsBattle.Server.bundle.scp.css"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/app.css",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\app.css",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "bootstrap/bootstrap.min.css",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\favicon.png",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/ally.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\ally.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/ally.svg",
+      "RelativePath": "images/ally#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "qu1oapz409",
+      "Integrity": "Yp0HyjBrF1gxJ7Lnlv1M/eSwwSZ2eQdcJ66QPHuntjE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/ally.svg"
+      "OriginalItemSpec": "wwwroot\\images\\ally.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/animals/animal1.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\animals\\animal1.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/animals/animal1.svg",
+      "RelativePath": "images/animals/animal1#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "k1agluoeer",
+      "Integrity": "KPyvbuaNFsmXO4Qfa8BK+cc47YLp35eUTpBrt1nT6v0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/animals/animal1.svg"
+      "OriginalItemSpec": "wwwroot\\images\\animals\\animal1.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/buildings/building1.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building1.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/buildings/building1.svg",
+      "RelativePath": "images/buildings/building1#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "924t9ppd7w",
+      "Integrity": "L8nhOZ+WNWnbDcz1AbjDrU52QqVFq9mNhjCvdk67pgE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/buildings/building1.svg"
+      "OriginalItemSpec": "wwwroot\\images\\buildings\\building1.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/buildings/building2.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building2.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/buildings/building2.svg",
+      "RelativePath": "images/buildings/building2#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "h0840unu4y",
+      "Integrity": "b9Z7Uawd2U/diNqL7mVsw5ffjb0Eq8vTE3W3IvVhC/A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/buildings/building2.svg"
+      "OriginalItemSpec": "wwwroot\\images\\buildings\\building2.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/charm.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\charm.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/charm.svg",
+      "RelativePath": "images/charm#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ydgrvumfee",
+      "Integrity": "tmIE/aaLS8tm/8zYsDSa2Up5nYjnF8y3qvAd3o5HpwY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/charm.svg"
+      "OriginalItemSpec": "wwwroot\\images\\charm.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/creature.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\creature.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/creature.svg",
+      "RelativePath": "images/creature#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "u6ffx7fnkw",
+      "Integrity": "pucAU2dMAoJMUIT2esGZ2LmUBQjuyFCSkjXxpBitdNY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/creature.svg"
+      "OriginalItemSpec": "wwwroot\\images\\creature.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/food/food1.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\food\\food1.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/food/food1.svg",
+      "RelativePath": "images/food/food1#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wo445w0i35",
+      "Integrity": "wBU/1IdL/j8uWzi4cCLmL808onTqx0cb8ya3uSdY8aw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/food/food1.svg"
+      "OriginalItemSpec": "wwwroot\\images\\food\\food1.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/item.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\item.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/item.svg",
+      "RelativePath": "images/item#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jta1ebjkv1",
+      "Integrity": "B/fK3PqlQZ8GGuFopQRpZbAzFUIPALDsUrq+DFaMv70=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/item.svg"
+      "OriginalItemSpec": "wwwroot\\images\\item.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/lightning.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\lightning.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/lightning.svg",
+      "RelativePath": "images/lightning#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "5036wfvctl",
+      "Integrity": "tQA3ts3WzPVdxOaITj0adOl5p7l42heziEYdqGAxdrY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/lightning.svg"
+      "OriginalItemSpec": "wwwroot\\images\\lightning.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/money/money.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\money\\money.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/money/money.svg",
+      "RelativePath": "images/money/money#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "j4iswo5zyz",
+      "Integrity": "PSWsIvViW0Kfo4wn+pJkpcDRTfd3Pbe6sUW6wkT97yg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/money/money.svg"
+      "OriginalItemSpec": "wwwroot\\images\\money\\money.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/other/placeholder.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\other\\placeholder.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/other/placeholder.svg",
+      "RelativePath": "images/other/placeholder#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "f8ea3zkbsf",
+      "Integrity": "cUp1s+AD7gO7PsLrDXaBGNiqQn6nzAqAutIqNiNJO0U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/other/placeholder.svg"
+      "OriginalItemSpec": "wwwroot\\images\\other\\placeholder.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/potion.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\potion.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/potion.svg",
+      "RelativePath": "images/potion#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jw7rx97qf6",
+      "Integrity": "w9Uz8wIdiMJdLgQBwA1SD4LM/LzLTxT9sCJqBo5yCrM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/potion.svg"
+      "OriginalItemSpec": "wwwroot\\images\\potion.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/shapes/square.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\square.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/shapes/square.svg",
+      "RelativePath": "images/shapes/square#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "q2uu4jz09m",
+      "Integrity": "wtNGmc1wuBkwi8P/PG/XE2CfZnnVVI9OEZv8xSYWGKE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/shapes/square.svg"
+      "OriginalItemSpec": "wwwroot\\images\\shapes\\square.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/shapes/triangle.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\triangle.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/shapes/triangle.svg",
+      "RelativePath": "images/shapes/triangle#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "qq6v6y9il3",
+      "Integrity": "4tECjsTWCRBNGEKaBUim+BnihsZCE4wT4hOrE0+kDO8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/shapes/triangle.svg"
+      "OriginalItemSpec": "wwwroot\\images\\shapes\\triangle.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/skull.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\skull.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/skull.svg",
+      "RelativePath": "images/skull#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "2pk4nwnoy9",
+      "Integrity": "xqgbrW0RvVMcyV4IdFrkxN5d3ej2E+GgzXJzApy0v80=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/skull.svg"
+      "OriginalItemSpec": "wwwroot\\images\\skull.svg"
     },
     {
-      "Identity": "/workspace/HogwartsBattle.Server/wwwroot/images/spell.svg",
+      "Identity": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\spell.svg",
       "SourceId": "HogwartsBattle.Server",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspace/HogwartsBattle.Server/wwwroot/",
+      "ContentRoot": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\",
       "BasePath": "_content/HogwartsBattle.Server",
-      "RelativePath": "images/spell.svg",
+      "RelativePath": "images/spell#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "afsxbdmalm",
+      "Integrity": "Ji3DoKpuOagDO6NV1zUPUCp0oK8JDgnx1BT/2/zIidM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/spell.svg"
+      "OriginalItemSpec": "wwwroot\\images\\spell.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "HogwartsBattle.Server.3p7lnev9tm.bundle.scp.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HogwartsBattle.Server.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3p7lnev9tm"
+        },
+        {
+          "Name": "label",
+          "Value": "HogwartsBattle.Server.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY="
+        }
+      ]
+    },
+    {
+      "Route": "HogwartsBattle.Server.3p7lnev9tm.styles.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HogwartsBattle.Server.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3p7lnev9tm"
+        },
+        {
+          "Name": "label",
+          "Value": "HogwartsBattle.Server.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY="
+        }
+      ]
+    },
+    {
+      "Route": "HogwartsBattle.Server.bundle.scp.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HogwartsBattle.Server.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY="
+        }
+      ]
+    },
+    {
+      "Route": "HogwartsBattle.Server.styles.css",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HogwartsBattle.Server.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N7lZ6qPV9r5NpX9WviVirIOwVcEGcl94bhp3ffSZ7eY="
+        }
+      ]
+    },
+    {
+      "Route": "images/ally.qu1oapz409.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\ally.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yp0HyjBrF1gxJ7Lnlv1M/eSwwSZ2eQdcJ66QPHuntjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qu1oapz409"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ally.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yp0HyjBrF1gxJ7Lnlv1M/eSwwSZ2eQdcJ66QPHuntjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/ally.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\ally.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yp0HyjBrF1gxJ7Lnlv1M/eSwwSZ2eQdcJ66QPHuntjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yp0HyjBrF1gxJ7Lnlv1M/eSwwSZ2eQdcJ66QPHuntjE="
+        }
+      ]
+    },
+    {
+      "Route": "images/animals/animal1.k1agluoeer.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\animals\\animal1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KPyvbuaNFsmXO4Qfa8BK+cc47YLp35eUTpBrt1nT6v0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k1agluoeer"
+        },
+        {
+          "Name": "label",
+          "Value": "images/animals/animal1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KPyvbuaNFsmXO4Qfa8BK+cc47YLp35eUTpBrt1nT6v0="
+        }
+      ]
+    },
+    {
+      "Route": "images/animals/animal1.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\animals\\animal1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KPyvbuaNFsmXO4Qfa8BK+cc47YLp35eUTpBrt1nT6v0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KPyvbuaNFsmXO4Qfa8BK+cc47YLp35eUTpBrt1nT6v0="
+        }
+      ]
+    },
+    {
+      "Route": "images/buildings/building1.924t9ppd7w.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8nhOZ+WNWnbDcz1AbjDrU52QqVFq9mNhjCvdk67pgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "924t9ppd7w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/buildings/building1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8nhOZ+WNWnbDcz1AbjDrU52QqVFq9mNhjCvdk67pgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/buildings/building1.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8nhOZ+WNWnbDcz1AbjDrU52QqVFq9mNhjCvdk67pgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8nhOZ+WNWnbDcz1AbjDrU52QqVFq9mNhjCvdk67pgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/buildings/building2.h0840unu4y.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b9Z7Uawd2U/diNqL7mVsw5ffjb0Eq8vTE3W3IvVhC/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h0840unu4y"
+        },
+        {
+          "Name": "label",
+          "Value": "images/buildings/building2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9Z7Uawd2U/diNqL7mVsw5ffjb0Eq8vTE3W3IvVhC/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/buildings/building2.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\buildings\\building2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b9Z7Uawd2U/diNqL7mVsw5ffjb0Eq8vTE3W3IvVhC/A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9Z7Uawd2U/diNqL7mVsw5ffjb0Eq8vTE3W3IvVhC/A="
+        }
+      ]
+    },
+    {
+      "Route": "images/charm.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\charm.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmIE/aaLS8tm/8zYsDSa2Up5nYjnF8y3qvAd3o5HpwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmIE/aaLS8tm/8zYsDSa2Up5nYjnF8y3qvAd3o5HpwY="
+        }
+      ]
+    },
+    {
+      "Route": "images/charm.ydgrvumfee.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\charm.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmIE/aaLS8tm/8zYsDSa2Up5nYjnF8y3qvAd3o5HpwY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ydgrvumfee"
+        },
+        {
+          "Name": "label",
+          "Value": "images/charm.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmIE/aaLS8tm/8zYsDSa2Up5nYjnF8y3qvAd3o5HpwY="
+        }
+      ]
+    },
+    {
+      "Route": "images/creature.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\creature.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pucAU2dMAoJMUIT2esGZ2LmUBQjuyFCSkjXxpBitdNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pucAU2dMAoJMUIT2esGZ2LmUBQjuyFCSkjXxpBitdNY="
+        }
+      ]
+    },
+    {
+      "Route": "images/creature.u6ffx7fnkw.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\creature.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pucAU2dMAoJMUIT2esGZ2LmUBQjuyFCSkjXxpBitdNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u6ffx7fnkw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/creature.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pucAU2dMAoJMUIT2esGZ2LmUBQjuyFCSkjXxpBitdNY="
+        }
+      ]
+    },
+    {
+      "Route": "images/food/food1.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\food\\food1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wBU/1IdL/j8uWzi4cCLmL808onTqx0cb8ya3uSdY8aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wBU/1IdL/j8uWzi4cCLmL808onTqx0cb8ya3uSdY8aw="
+        }
+      ]
+    },
+    {
+      "Route": "images/food/food1.wo445w0i35.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\food\\food1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wBU/1IdL/j8uWzi4cCLmL808onTqx0cb8ya3uSdY8aw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wo445w0i35"
+        },
+        {
+          "Name": "label",
+          "Value": "images/food/food1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wBU/1IdL/j8uWzi4cCLmL808onTqx0cb8ya3uSdY8aw="
+        }
+      ]
+    },
+    {
+      "Route": "images/item.jta1ebjkv1.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\item.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/fK3PqlQZ8GGuFopQRpZbAzFUIPALDsUrq+DFaMv70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jta1ebjkv1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/item.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/fK3PqlQZ8GGuFopQRpZbAzFUIPALDsUrq+DFaMv70="
+        }
+      ]
+    },
+    {
+      "Route": "images/item.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\item.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B/fK3PqlQZ8GGuFopQRpZbAzFUIPALDsUrq+DFaMv70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B/fK3PqlQZ8GGuFopQRpZbAzFUIPALDsUrq+DFaMv70="
+        }
+      ]
+    },
+    {
+      "Route": "images/lightning.5036wfvctl.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\lightning.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQA3ts3WzPVdxOaITj0adOl5p7l42heziEYdqGAxdrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5036wfvctl"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lightning.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQA3ts3WzPVdxOaITj0adOl5p7l42heziEYdqGAxdrY="
+        }
+      ]
+    },
+    {
+      "Route": "images/lightning.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\lightning.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tQA3ts3WzPVdxOaITj0adOl5p7l42heziEYdqGAxdrY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tQA3ts3WzPVdxOaITj0adOl5p7l42heziEYdqGAxdrY="
+        }
+      ]
+    },
+    {
+      "Route": "images/money/money.j4iswo5zyz.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\money\\money.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PSWsIvViW0Kfo4wn+pJkpcDRTfd3Pbe6sUW6wkT97yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4iswo5zyz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/money/money.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PSWsIvViW0Kfo4wn+pJkpcDRTfd3Pbe6sUW6wkT97yg="
+        }
+      ]
+    },
+    {
+      "Route": "images/money/money.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\money\\money.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PSWsIvViW0Kfo4wn+pJkpcDRTfd3Pbe6sUW6wkT97yg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PSWsIvViW0Kfo4wn+pJkpcDRTfd3Pbe6sUW6wkT97yg="
+        }
+      ]
+    },
+    {
+      "Route": "images/other/placeholder.f8ea3zkbsf.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\other\\placeholder.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUp1s+AD7gO7PsLrDXaBGNiqQn6nzAqAutIqNiNJO0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f8ea3zkbsf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/other/placeholder.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUp1s+AD7gO7PsLrDXaBGNiqQn6nzAqAutIqNiNJO0U="
+        }
+      ]
+    },
+    {
+      "Route": "images/other/placeholder.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\other\\placeholder.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUp1s+AD7gO7PsLrDXaBGNiqQn6nzAqAutIqNiNJO0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUp1s+AD7gO7PsLrDXaBGNiqQn6nzAqAutIqNiNJO0U="
+        }
+      ]
+    },
+    {
+      "Route": "images/potion.jw7rx97qf6.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\potion.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9Uz8wIdiMJdLgQBwA1SD4LM/LzLTxT9sCJqBo5yCrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jw7rx97qf6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/potion.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w9Uz8wIdiMJdLgQBwA1SD4LM/LzLTxT9sCJqBo5yCrM="
+        }
+      ]
+    },
+    {
+      "Route": "images/potion.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\potion.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9Uz8wIdiMJdLgQBwA1SD4LM/LzLTxT9sCJqBo5yCrM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w9Uz8wIdiMJdLgQBwA1SD4LM/LzLTxT9sCJqBo5yCrM="
+        }
+      ]
+    },
+    {
+      "Route": "images/shapes/square.q2uu4jz09m.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtNGmc1wuBkwi8P/PG/XE2CfZnnVVI9OEZv8xSYWGKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q2uu4jz09m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shapes/square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtNGmc1wuBkwi8P/PG/XE2CfZnnVVI9OEZv8xSYWGKE="
+        }
+      ]
+    },
+    {
+      "Route": "images/shapes/square.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wtNGmc1wuBkwi8P/PG/XE2CfZnnVVI9OEZv8xSYWGKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wtNGmc1wuBkwi8P/PG/XE2CfZnnVVI9OEZv8xSYWGKE="
+        }
+      ]
+    },
+    {
+      "Route": "images/shapes/triangle.qq6v6y9il3.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\triangle.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tECjsTWCRBNGEKaBUim+BnihsZCE4wT4hOrE0+kDO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qq6v6y9il3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shapes/triangle.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tECjsTWCRBNGEKaBUim+BnihsZCE4wT4hOrE0+kDO8="
+        }
+      ]
+    },
+    {
+      "Route": "images/shapes/triangle.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\shapes\\triangle.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4tECjsTWCRBNGEKaBUim+BnihsZCE4wT4hOrE0+kDO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4tECjsTWCRBNGEKaBUim+BnihsZCE4wT4hOrE0+kDO8="
+        }
+      ]
+    },
+    {
+      "Route": "images/skull.2pk4nwnoy9.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\skull.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xqgbrW0RvVMcyV4IdFrkxN5d3ej2E+GgzXJzApy0v80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pk4nwnoy9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/skull.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xqgbrW0RvVMcyV4IdFrkxN5d3ej2E+GgzXJzApy0v80="
+        }
+      ]
+    },
+    {
+      "Route": "images/skull.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\skull.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xqgbrW0RvVMcyV4IdFrkxN5d3ej2E+GgzXJzApy0v80=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xqgbrW0RvVMcyV4IdFrkxN5d3ej2E+GgzXJzApy0v80="
+        }
+      ]
+    },
+    {
+      "Route": "images/spell.afsxbdmalm.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\spell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ji3DoKpuOagDO6NV1zUPUCp0oK8JDgnx1BT/2/zIidM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "afsxbdmalm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/spell.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ji3DoKpuOagDO6NV1zUPUCp0oK8JDgnx1BT/2/zIidM="
+        }
+      ]
+    },
+    {
+      "Route": "images/spell.svg",
+      "AssetFile": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\wwwroot\\images\\spell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ji3DoKpuOagDO6NV1zUPUCp0oK8JDgnx1BT/2/zIidM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Aug 2025 00:57:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ji3DoKpuOagDO6NV1zUPUCp0oK8JDgnx1BT/2/zIidM="
+        }
+      ]
     }
   ]
 }

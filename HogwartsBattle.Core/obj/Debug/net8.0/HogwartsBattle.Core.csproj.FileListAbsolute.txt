@@ -10,3 +10,15 @@
 /workspace/HogwartsBattle.Core/obj/Debug/net8.0/refint/HogwartsBattle.Core.dll
 /workspace/HogwartsBattle.Core/obj/Debug/net8.0/HogwartsBattle.Core.pdb
 /workspace/HogwartsBattle.Core/obj/Debug/net8.0/ref/HogwartsBattle.Core.dll
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\bin\Debug\net8.0\HogwartsBattle.Core.deps.json
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\bin\Debug\net8.0\HogwartsBattle.Core.dll
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\bin\Debug\net8.0\HogwartsBattle.Core.pdb
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.AssemblyInfoInputs.cache
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.AssemblyInfo.cs
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.csproj.CoreCompileInputs.cache
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.sourcelink.json
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.dll
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\refint\HogwartsBattle.Core.dll
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\HogwartsBattle.Core.pdb
+C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\HogwartsBattle.Core\obj\Debug\net8.0\ref\HogwartsBattle.Core.dll

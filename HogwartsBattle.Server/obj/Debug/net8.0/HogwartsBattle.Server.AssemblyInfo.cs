@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HogwartsBattle.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b0a2dcd2fc368887e7dec78cc4903feb371beea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf028e12999a8b4aaa30007167bf6537c6e5a63")]
 [assembly: System.Reflection.AssemblyProductAttribute("HogwartsBattle.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HogwartsBattle.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
