@@ -29,6 +29,12 @@ Then open your browser to http://localhost:5199
 - Go to Lobby (default) and either Create Room (gets a code) or Join Room with an existing code.
 - Up to 6 concurrent players per room are supported (practical limit; server is in-memory).
 
+### Solo Mode (1 Player / 4 Heroes)
+- In the Lobby, enter your name and check "Solo Mode (control 4 heroes)", then click Create.
+- Character Creation: click "Configure Character" and submit a build (base hero, name, traits). Repeat this Confirm step 4 times to assign builds to each of your four heroes. The game starts automatically when all four have at least one trait.
+- During play, turns rotate through your four heroes. All actions (play, buy, attack, trait actions like Swift/Mentor if available) apply to the currently Active hero shown in the Players list.
+- Solo rooms are locked; other players cannot join. State is in-memory (restarts clear rooms).
+
 ## Project Structure
 - `HogwartsBattle.Server/` Blazor Server app
   - SignalR hub: `Hubs/GameHub.cs`
