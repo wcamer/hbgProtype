@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/workspace/HogwartsBattle.Core/HogwartsBattle.Core.csproj": {}
+    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj": {}
   },
   "projects": {
-    "/workspace/HogwartsBattle.Core/HogwartsBattle.Core.csproj": {
+    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspace/HogwartsBattle.Core/HogwartsBattle.Core.csproj",
+        "projectUniqueName": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj",
         "projectName": "HogwartsBattle.Core",
-        "projectPath": "/workspace/HogwartsBattle.Core/HogwartsBattle.Core.csproj",
-        "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/workspace/HogwartsBattle.Core/obj/",
+        "projectPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj",
+        "packagesPath": "C:\\Users\\xeusx\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\xeusx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +40,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,12 +57,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/workspace/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.109/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

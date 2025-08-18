@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "O+KTzMMJBvM=",
+  "dgSpecHash": "XtaRsbQWVLM=",
   "success": true,
-  "projectFilePath": "/workspace/HogwartsBattle.Core/HogwartsBattle.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xeusx\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.19\\microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
+    "C:\\Users\\xeusx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.19\\microsoft.windowsdesktop.app.ref.8.0.19.nupkg.sha512",
+    "C:\\Users\\xeusx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.19\\microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512"
+  ],
   "logs": []
 }
