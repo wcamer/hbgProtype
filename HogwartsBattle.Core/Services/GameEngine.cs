@@ -58,7 +58,16 @@ public sealed class GameEngine
 
     public void ConfirmCharacter(GameState state, string playerId, HogwartsBattle.Core.Characters.CharacterBuild build)
     {
-        var p = state.Players.First(x => x.PlayerId == playerId || (state.IsSoloMode && x.PlayerId.StartsWith(playerId)));
+        PlayerState p;
+        if (state.IsSoloMode)
+        {
+            p = state.Players.FirstOrDefault(x => x.PlayerId.StartsWith(playerId) && x.Character.SelectedTraitIds.Count == 0)
+                ?? state.Players.First(x => x.PlayerId.StartsWith(playerId));
+        }
+        else
+        {
+            p = state.Players.First(x => x.PlayerId == playerId);
+        }
         p.Character = build;
         if (state.Players.All(x => x.Character.SelectedTraitIds.Count > 0))
         {
@@ -70,7 +79,7 @@ public sealed class GameEngine
 
     public void PlayCard(GameState state, string playerId, int cardId)
     {
-        var p = state.Players.First(x => x.PlayerId == playerId);
+        var p = GetPlayerForAction(state, playerId);
         if (!p.Hand.Remove(cardId)) return;
         p.InPlay.Add(cardId);
         var card = state.CardIndex[cardId];
@@ -80,7 +89,7 @@ public sealed class GameEngine
 
     public void BuyCard(GameState state, string playerId, int cardId)
     {
-        var p = state.Players.First(x => x.PlayerId == playerId);
+        var p = GetPlayerForAction(state, playerId);
         var card = state.CardIndex[cardId];
         var effectiveCost = card.Cost;
         // Collector: Items cost 1 less once per turn
@@ -154,7 +163,7 @@ public sealed class GameEngine
 
     public void AttackVillain(GameState state, string playerId, int villainId, int amount)
     {
-        var player = state.Players.First(x => x.PlayerId == playerId);
+        var player = GetPlayerForAction(state, playerId);
         if (amount <= 0 || player.Attack < amount) return;
         var villain = state.ActiveVillains.FirstOrDefault(v => v.Id == villainId);
         if (villain is null || villain.CurrentHealth <= 0) return;
@@ -331,7 +340,7 @@ public sealed class GameEngine
     // Mentor: Once per turn another hero draws 1
     public void UseMentor(GameState state, string playerId, string targetPlayerId)
     {
-        var player = state.Players.First(x => x.PlayerId == playerId);
+        var player = GetPlayerForAction(state, playerId);
         if (!HasTrait(player, "Mentor") || player.TurnFlags.Contains("Mentor_Used")) return;
         var target = state.Players.FirstOrDefault(x => x.PlayerId == targetPlayerId);
         if (target is null || ReferenceEquals(target, player)) return;
@@ -343,13 +352,23 @@ public sealed class GameEngine
     // Swift: Once per turn you may discard a card to draw 1
     public void UseSwiftDiscard(GameState state, string playerId, int cardId)
     {
-        var player = state.Players.First(x => x.PlayerId == playerId);
+        var player = GetPlayerForAction(state, playerId);
         if (!HasTrait(player, "Swift") || player.TurnFlags.Contains("Swift_Used")) return;
         if (!player.Hand.Remove(cardId)) return;
         player.Discard.Add(cardId);
         DrawCards(state, player, 1);
         player.TurnFlags.Add("Swift_Used");
         state.Log.Add($"{player.Name} used Swift: discarded and drew 1.");
+    }
+
+    private static PlayerState GetPlayerForAction(GameState state, string playerId)
+    {
+        if (!state.IsSoloMode)
+        {
+            return state.Players.First(x => x.PlayerId == playerId);
+        }
+        // Solo mode: the acting player is always the active hero for the solo controller
+        return state.Players[state.ActivePlayerIndex];
     }
 
     private static bool HasTrait(PlayerState player, string traitName)
