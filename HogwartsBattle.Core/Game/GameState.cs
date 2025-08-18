@@ -6,6 +6,8 @@ public sealed class GameState
 {
     public string RoomCode { get; set; } = string.Empty;
     public GamePhase Phase { get; set; } = GamePhase.Lobby;
+    public bool IsSoloMode { get; set; }
+    public string? SoloControllerId { get; set; }
 
     public List<PlayerState> Players { get; set; } = new();
     public int ActivePlayerIndex { get; set; }
