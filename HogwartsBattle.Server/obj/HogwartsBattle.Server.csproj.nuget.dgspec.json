@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\HogwartsBattle.Server.csproj": {}
+    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\HogwartsBattle.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Core\\HogwartsBattle.Core.csproj": {
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\HogwartsBattle.Server.csproj": {
+    "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\HogwartsBattle.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\HogwartsBattle.Server.csproj",
+        "projectUniqueName": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\HogwartsBattle.Server.csproj",
         "projectName": "HogwartsBattle.Server",
-        "projectPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\HogwartsBattle.Server.csproj",
+        "projectPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\HogwartsBattle.Server.csproj",
         "packagesPath": "C:\\Users\\xeusx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\obj\\",
+        "outputPath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xeusx\\AppData\\Roaming\\NuGet\\NuGet.Config",

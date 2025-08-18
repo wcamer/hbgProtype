@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dxDC104Ynd4=",
+  "dgSpecHash": "l2ep7K8eABQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\HogwartsBattle.Server\\HogwartsBattle.Server.csproj",
+  "projectFilePath": "C:\\Users\\xeusx\\Desktop\\Will's Work\\personal projects\\Hogwarts Battle Project\\cursor version\\HBCursorVersion\\hbgProtype\\hogwartsbattle.server\\HogwartsBattle.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xeusx\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.19\\microsoft.aspnetcore.connections.abstractions.8.0.19.nupkg.sha512",
     "C:\\Users\\xeusx\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\8.0.19\\microsoft.aspnetcore.http.connections.client.8.0.19.nupkg.sha512",
