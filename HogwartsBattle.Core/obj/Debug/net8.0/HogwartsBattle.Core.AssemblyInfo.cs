@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HogwartsBattle.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+868509c323c1dad4b66079124161683129343b3a")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ab59167fc961afa3a8a0cf8e60a888f611faadc")]
+>>>>>>> 97910fe (Remove Home.razor and update build configuration)
 [assembly: System.Reflection.AssemblyProductAttribute("HogwartsBattle.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HogwartsBattle.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

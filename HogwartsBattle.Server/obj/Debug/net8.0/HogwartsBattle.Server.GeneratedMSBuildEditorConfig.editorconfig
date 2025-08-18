@@ -36,12 +36,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Lobby.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2JieS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Room.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSb29tLnJhem9y
+=======
+[/workspace/HogwartsBattle.Server/Components/Pages/Lobby.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Mb2JieS5yYXpvcg==
+>>>>>>> 97910fe (Remove Home.razor and update build configuration)
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Weather.razor]
