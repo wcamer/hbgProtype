@@ -9,62 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HogwartsBattle.Server
 build_property.RootNamespace = HogwartsBattle.Server
-build_property.ProjectDir = C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\hogwartsbattle.server\
+build_property.ProjectDir = /workspace/HogwartsBattle.Server/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\xeusx\Desktop\Will's Work\personal projects\Hogwarts Battle Project\cursor version\HBCursorVersion\hbgProtype\hogwartsbattle.server
+build_property.MSBuildProjectDirectory = /workspace/HogwartsBattle.Server
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+[/workspace/HogwartsBattle.Server/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/CharacterCreate.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGFyYWN0ZXJDcmVhdGUucmF6b3I=
+[/workspace/HogwartsBattle.Server/Components/Pages/CharacterCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGFyYWN0ZXJDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[/workspace/HogwartsBattle.Server/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[/workspace/HogwartsBattle.Server/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Lobby.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2JieS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Room.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSb29tLnJhem9y
-=======
 [/workspace/HogwartsBattle.Server/Components/Pages/Lobby.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Mb2JieS5yYXpvcg==
->>>>>>> 97910fe (Remove Home.razor and update build configuration)
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+[/workspace/HogwartsBattle.Server/Components/Pages/Room.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Sb29tLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+[/workspace/HogwartsBattle.Server/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+[/workspace/HogwartsBattle.Server/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-2vsvfx30iw
+[/workspace/HogwartsBattle.Server/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xeusx/Desktop/Will's Work/personal projects/Hogwarts Battle Project/cursor version/HBCursorVersion/hbgProtype/hogwartsbattle.server/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-2uop1yahbo
+[/workspace/HogwartsBattle.Server/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3qy2p0e7ch
+
+[/workspace/HogwartsBattle.Server/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-y3hf3gdy7b

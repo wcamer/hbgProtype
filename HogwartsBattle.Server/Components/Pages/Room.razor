@@ -42,13 +42,21 @@ else
             <h4 class="mt-3">Villains</h4>
             @foreach (var v in State.ActiveVillains)
             {
+                var isDefeated = v.CurrentHealth <= 0;
                 <div class="card p-2 mb-2">
-                    <img src="@Image.UrlFor(v.ImageKey.Length==0?"villain":v.ImageKey)" style="height:60px" />
-                    <div>@v.Name (@v.CurrentHealth/@v.MaxHealth)</div>
-                    @if (State.Players[State.ActivePlayerIndex].Attack > 0 && State.Phase == GamePhase.InProgress)
+                    <img src="@Image.UrlFor(v.ImageKey.Length==0?"villain":v.ImageKey)" style="height:60px; opacity:@(isDefeated?0.5:1)" />
+                    <div>
+                        @v.Name (@v.CurrentHealth/@v.MaxHealth)
+                        @if (isDefeated)
+                        {
+                            <span class="badge text-bg-success ms-2">Defeated</span>
+                        }
+                    </div>
+                    @if (!isDefeated && State.Players[State.ActivePlayerIndex].Attack > 0 && State.Phase == GamePhase.InProgress)
                     {
                         <div class="mt-1 d-flex gap-1">
                             <button class="btn btn-sm btn-danger" @onclick="() => AttackVillain(v.Id, 1)">Spend 1 Attack</button>
+                            <button class="btn btn-sm btn-outline-danger" title="Spend all available attack" @onclick="() => AttackVillain(v.Id, State.Players[State.ActivePlayerIndex].Attack)">Spend All</button>
                         </div>
                     }
                 </div>
@@ -81,11 +89,12 @@ else
             @for (int i = 0; i < State.Players.Count; i++)
             {
                 var p = State.Players[i];
+                var heroName = string.IsNullOrWhiteSpace(p.Character.DisplayName) ? p.Name : $"{p.Name} - {p.Character.DisplayName}";
                 <div class="card p-2 mb-2">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="d-flex align-items-center gap-2">
                             <img src="@Image.UrlFor("character")" style="height:32px;width:32px" />
-                            <div><strong>@p.Name</strong> HP @p.Health/@p.MaxHealth | Inf @p.Influence <img src="@Image.UrlFor("influence")" style="height:16px" /> | Atk @p.Attack <img src="@Image.UrlFor("attack")" style="height:16px" /></div>
+                            <div><strong>@heroName</strong> HP @p.Health/@p.MaxHealth | Inf @p.Influence <img src="@Image.UrlFor("influence")" style="height:16px" /> | Atk @p.Attack <img src="@Image.UrlFor("attack")" style="height:16px" /></div>
                         </div>
                         @if (i == State.ActivePlayerIndex)
                         {
@@ -116,18 +125,20 @@ else
                                     </div>
                                 }
                             </div>
-                            <div class="mt-2 d-flex align-items-center gap-2">
+                            <div class="mt-2 d-flex align-items-center gap-2 flex-wrap">
                                 <button class="btn btn-secondary" @onclick=EndTurn>End Turn</button>
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-info dropdown-toggle" type="button" data-bs-toggle="dropdown">Mentor: Give Draw</button>
-                                    <ul class="dropdown-menu">
+                                <div class="d-flex align-items-center gap-2">
+                                    <label class="small mb-0">Mentor:</label>
+                                    <select class="form-select form-select-sm" style="width:auto" @bind=mentorTargetId>
+                                        <option value="">Choose hero</option>
                                         @for (int j = 0; j < State.Players.Count; j++)
                                         {
                                             if (j == State.ActivePlayerIndex) { continue; }
                                             var other = State.Players[j];
-                                            <li><a class="dropdown-item" href="#" @onclick="() => UseMentor(other.PlayerId)">@other.Name</a></li>
+                                            <option value="@other.PlayerId">@other.Name</option>
                                         }
-                                    </ul>
+                                    </select>
+                                    <button class="btn btn-sm btn-outline-info" disabled="@string.IsNullOrEmpty(mentorTargetId)" @onclick="() => UseMentor(mentorTargetId!)">Give Draw</button>
                                 </div>
                             </div>
                         </div>
@@ -143,6 +154,7 @@ else
 
     private HubConnection? _hub;
     private GameState? State;
+    private string? mentorTargetId;
 
     protected override async Task OnInitializedAsync()
     {
@@ -156,6 +168,11 @@ else
             State = s;
             InvokeAsync(StateHasChanged);
         });
+
+        _hub.Reconnected += async (string? _newId) =>
+        {
+            try { await _hub.InvokeAsync("Attach", RoomCode); } catch { }
+        };
 
         await _hub.StartAsync();
         await _hub.InvokeAsync("Attach", RoomCode);

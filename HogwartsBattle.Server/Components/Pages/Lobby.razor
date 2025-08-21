@@ -15,6 +15,7 @@
                 <label class="form-check-label" for="solo">Solo Mode (control 4 heroes)</label>
             </div>
             <button class="btn btn-primary" @onclick=CreateRoom disabled="@(string.IsNullOrWhiteSpace(playerName))">Create</button>
+            @if (!string.IsNullOrEmpty(error)) { <div class="text-danger small mt-2">@error</div> }
         </div>
     </div>
     <div class="col-md-6">
@@ -23,6 +24,7 @@
             <input class="form-control mb-2" placeholder="Room code" @bind=roomCode />
             <input class="form-control mb-2" placeholder="Your name" @bind=playerName />
             <button class="btn btn-success" @onclick=JoinRoom disabled="@(string.IsNullOrWhiteSpace(playerName) || string.IsNullOrWhiteSpace(roomCode))">Join</button>
+            @if (!string.IsNullOrEmpty(error)) { <div class="text-danger small mt-2">@error</div> }
         </div>
     </div>
 </div>
@@ -31,6 +33,7 @@
     private string? playerName;
     private bool solo;
     private string? roomCode;
+    private string? error;
 
     private HubConnection? _hub;
 
@@ -46,14 +49,30 @@
     private async Task CreateRoom()
     {
         if (_hub is null || string.IsNullOrWhiteSpace(playerName)) return;
-        var code = await _hub.InvokeAsync<string>("CreateRoom", playerName, solo);
-        Nav.NavigateTo($"/room/{code}");
+        try
+        {
+            error = null;
+            var code = await _hub.InvokeAsync<string>("CreateRoom", playerName, solo);
+            Nav.NavigateTo($"/room/{code}");
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
     }
 
     private async Task JoinRoom()
     {
         if (_hub is null || string.IsNullOrWhiteSpace(playerName) || string.IsNullOrWhiteSpace(roomCode)) return;
-        await _hub.InvokeAsync("JoinRoom", roomCode, playerName);
-        Nav.NavigateTo($"/room/{roomCode}");
+        try
+        {
+            error = null;
+            await _hub.InvokeAsync("JoinRoom", roomCode, playerName);
+            Nav.NavigateTo($"/room/{roomCode}");
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
     }
 }
